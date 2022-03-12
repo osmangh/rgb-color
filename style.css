@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+#change-btn{
+    margin: 5px 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#change-btn:hover{
+    cursor: pointer;
+
+}
